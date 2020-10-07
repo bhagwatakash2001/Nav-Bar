@@ -1,0 +1,62 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+ .div1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+   
+
+}
+.div1 li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 8px 16px;
+}
+.div1 li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+/* 2nd nav-bar */
+
+.div2 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+    width: 100px;
+    background-color: #f1f1f1f1;
+    position: fixed;
+    overflow: auto;
+}
+.div2 li a{
+
+    padding: .5em 1em;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: c;
+}
+.div2 li a:hover{
+    color: white;
+    background-color:#555;
+}
+.div2 li a.active{
+    background-color: #4CAF50;
+}
+.div2 li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+
+p{
+    margin-left: 120px;
+    padding-bottom: 10000px;
+} 
+ 
+
